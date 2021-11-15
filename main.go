@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/padok-team/github-actions-tutorial/foobar"
+	"github.com/szd55pilot/my-github-actions/foobar"
 )
 
 const addr = ":8080"

@@ -3,7 +3,7 @@ package foobar_test
 import (
 	"testing"
 
-	"github.com/padok-team/github-actions-tutorial/foobar"
+	"github.com/szd55pilot/my-github-actions/foobar"
 )
 
 func TestSequence(t *testing.T) {

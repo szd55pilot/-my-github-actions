@@ -1,3 +1,3 @@
-module github.com/padok-team/github-actions-tutorial
+module github.com/szd55pilot/my-github-actions
 
 go 1.14
