@@ -30,7 +30,7 @@ echo "✅ Authentication token added."
 echo
 
 echo "⏳ Converting configuration to base64..."
-KUBECONFIG_B64="$(base64 --input /tmp/kubeconfig.yml)"
+KUBECONFIG_B64="$(base64 /tmp/kubeconfig.yml)"
 rm /tmp/kubeconfig.yml
 echo "✅ Configuration converted."
 echo
