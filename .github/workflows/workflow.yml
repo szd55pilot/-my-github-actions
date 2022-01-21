@@ -20,7 +20,7 @@ jobs:
     steps:
     - name: Add mask
       run: |
-        echo "::add-mask::password"
+        echo "::add-mask::foobar"
 
   # run all unit tests.
   run-tests:
