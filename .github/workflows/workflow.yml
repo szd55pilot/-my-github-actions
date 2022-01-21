@@ -14,13 +14,6 @@ on:
       - main
 
 jobs:
-  my-peanut-butter-job:
-
-    steps:
-    - name: Add mask
-      run: |
-        echo "::add-mask::password"
-
   # run all unit tests.
   run-tests:
     runs-on: ubuntu-latest
